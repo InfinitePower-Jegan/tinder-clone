@@ -11,3 +11,15 @@ $color-primary: rgb(200, 122, 24);
 .title {
   color: $color-primary;
 }
+//css do componente topheader
+.iconperfil {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Topheader {
+  background-color: orangered;
+  width: 25%;
+  height: 100px;
+}
