@@ -1,13 +1,35 @@
-$color-primary: white;
+$color-primary: rgb(200, 122, 24);
 
 .mainContent {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
-    color: $color-primary;
+  color: $color-primary;
+}
+//css do componente topheader
+.iconperfil {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 40px;
+}
+
+.Topheader {
+  background-color: orangered;
+  width: 25%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  img:nth-of-type(1) {
+    height: 50px;
+  }
+  img:nth-of-type(2) {
+    height: 50px;
+  }
 }
