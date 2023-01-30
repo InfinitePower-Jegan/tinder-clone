@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import '../globals.css'
 import Header from './Header'
-import LoginButton from './LoginButton'
 import RegisterButton from './RegisterButton'
 
 export default function RootLayout({
