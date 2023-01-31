@@ -12,7 +12,8 @@ const nextConfig = {
   images: {
     domains: [
       "firebasestorage.googleapis.com",
-      "images.unsplash.com"
+      "images.unsplash.com",
+      "tinder.com"
     ]
   }
 }

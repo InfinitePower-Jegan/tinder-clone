@@ -4,7 +4,7 @@ import LoginButton from "./LoginButton"
 
 export default function Header() {
   return (
-    <header className="w-full flex items-center justify-between sticky z-50 px-8">
+    <header className="w-full flex items-center justify-between sticky z-20 px-8">
       <div className="flex items-center space-x-8">
         <Image 
           className="invert grayscale brightness-0"

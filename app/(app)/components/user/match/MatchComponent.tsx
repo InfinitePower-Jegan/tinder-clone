@@ -22,7 +22,7 @@ export default async function MatchComponent({ match }: MatchComponentProps) {
       <div className="relative w-full h-full">
         <Image src={user.photos[0]} alt={user.name} fill={true} className="rounded-md object-cover" />
       </div>
-      <div className="absolute w-full h-full bg-black/50 rounded-md top-0 z-10 flex items-end p-2">
+      <div className="absolute w-full h-full bg-black/50 hover:bg-black/30 rounded-md top-0 z-10 flex items-end p-2">
         <p className="relative text-white">{user.name}</p>
       </div>
     </div>

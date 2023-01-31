@@ -36,7 +36,7 @@ type TabItemProps = {
 const TabItem: React.FC<TabItemProps> = ({ title, selected, onClick }) => {
   return (
     <div
-      className={`w-full text-center cursor-pointer ${selected && "border-b-2 border-b-red-500"}`}
+      className={`w-full text-center cursor-pointer ${selected ? "border-b-2 border-b-red-500 hover:bg-red-50 rounded-t-xl" : "hover:bg-gray-50 rounded-xl"}`}
       onClick={onClick}
     >
       <p className="text-black font-bold">{title}</p>

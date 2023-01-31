@@ -46,7 +46,7 @@ type HeaderButtonProps = {
 
 const HeaderButton: React.FC<HeaderButtonProps> = ({ Icon }) => {
   return (
-    <div className="bg-black/60 p-2 rounded-full flex items-center justify-center cursor-pointer">
+    <div className="bg-black/60 hover:bg-black/50 p-2 rounded-full flex items-center justify-center cursor-pointer">
       <Icon className="h-6 w-6" />
     </div>
   )
