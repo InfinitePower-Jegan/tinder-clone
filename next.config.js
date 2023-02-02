@@ -13,7 +13,8 @@ const nextConfig = {
     domains: [
       "firebasestorage.googleapis.com",
       "images.unsplash.com",
-      "tinder.com"
+      "tinder.com",
+      "lh3.googleusercontent.com"
     ]
   }
 }

@@ -2,6 +2,7 @@ import { XCircleIcon } from "@heroicons/react/24/outline"
 import Image from "next/image"
 import Link from "next/link"
 import { ReactNode } from "react"
+import GoogleLoginButton from "./GoogleLoginButton"
 
 export default function LoginPage() {
   return (
@@ -77,19 +78,6 @@ const LinkDescription: React.FC<LinkDescriptionProps> = ({
       className="text-gray-600 font-bold cursor-pointer underline hover:no-underline"
     >
       {children}
-    </Link>
-  )
-}
-
-const GoogleLoginButton: React.FC = () => {
-  return (
-    <Link 
-      href="/app"
-      className="rounded-full p-1 cursor-pointer bg-blue-600 transition-colors hover:bg-blue-500 text-white flex items-center w-full">
-      <div className="relative w-8 h-8 bg-white rounded-full">
-        <Image src="/google-logo.jfif" alt="Google logo" fill={true} className="rounded-full p-1" />
-      </div>
-      <p className="font-semibold text-sm flex-1 text-center">Continuar com o Google</p>
     </Link>
   )
 }

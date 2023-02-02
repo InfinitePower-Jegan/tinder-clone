@@ -13,10 +13,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head />
       <body className="overflow-hidden">
         <div className="w-screen h-screen absolute -z-50">
-          <Image src="/tinder-background.jpg" alt="Background Image" fill={true} />
+          <Image
+            src="/tinder-background.jpg"
+            alt="Background Image"
+            fill={true}
+            className="object-cover"
+          />
         </div>
-        <div className="w-screen h-screen flex flex-col space-y-10 pt-8 items-center justify-center bg-gradient-to-b from-black via-black/30 to-black/30 -z-40 absolute">
-          <h1 className="text-8xl font-bold text-white">Passar Para a Direita</h1>
+        <div className="w-screen h-screen flex flex-col space-y-10 pt-8 px-8 text-center italic lg:not-italic items-center justify-center bg-gradient-to-b from-black via-black/30 to-black/30 -z-40 absolute">
+          <h1 className="text-5xl lg:text-8xl font-bold text-white">Passar Para a Direita</h1>
           <RegisterButton />
         </div>
         <Header />
